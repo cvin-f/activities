@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Toggle Button</title>
+    
+</head>
+<body>
+   
+    <button id="toggle-button" onclick="btnclick()">Open</button>
+
+    <script>
+        var btn=document.getElementById("toggle-button");
+
+        function btnclick(){
+            if(btn.innerHTML=="Open"){
+                btn.innerHTML="Close";
+            }
+            else{
+                btn.innerHTML="Open";
+            }
+        }
+    </script>
+</body>
+</html>
